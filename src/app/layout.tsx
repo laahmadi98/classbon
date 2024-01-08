@@ -8,13 +8,13 @@ export default function RootLayout({
   return (
     <html lang="en" dir="rtl">
       <body className="flex flex-col min-h-screen font-bold uppercase" >
-        <header className="bg-gray-200 flex items-center justify-center h-20">
+        <header className=" flex items-center justify-center h-20 bg-base-content">
           Header
         </header>
         <div className="flex flex-1 ">
         {children}
         </div>
-        <header className="bg-gray-200 flex items-center justify-center h-20 ">
+        <header className=" flex items-center justify-center h-20  bg-base-content">
           Footer
         </header>
       </body>
